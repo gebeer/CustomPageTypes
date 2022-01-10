@@ -3,7 +3,8 @@
 Adds custom page types, following the principles outlined here: https://processwire.com/docs/tutorials/using-custom-page-types-in-processwire/
 
 ## Installation
-like any other module in ProcessWire
+like any other module in ProcessWire.  
+**ATTENTION**: empty the example array inside CustomPageTypes.module, line 15 before you install the module.
 
 ## Sample classes and methods
 Are provided in PageClasses.php
