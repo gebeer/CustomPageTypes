@@ -74,7 +74,7 @@ class CustomPageTypes extends WireData implements Module
 	{
 		foreach(self::templateClasses as $tplName => $className) {
 			$t = $this->wire()->templates->get($tplName);
-			if($t->pageClass != $className) {
+			if($t && $t->pageClass != $className) {
 				$t->set('pageClass', $className);
 				$t->save();
 			}
